@@ -1,10 +1,11 @@
 import React from 'react';
+import { Route, Routes, Router } from 'react-router-dom';
 
 const Welcome = () => {
   return (
-    <div>
-      <p>Welcome</p>
-    </div>
+    <section>
+      <h1>Welcome</h1>
+    </section>
   );
 };
 
